@@ -21,7 +21,7 @@ const p2 = new Promise((resolve) => {
 });
 
 
-// Executing the promise calls in parallel.
+// Executing the promise calls in parallel using the Promise.all()
 // Promise.all([p1, p2])
 //     .then(result => console.log(result))
 //     .catch(err => console.log('Error', err.message));

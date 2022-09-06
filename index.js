@@ -55,9 +55,9 @@ console.log('After');
 // Promises
 // Async and Await
 
-function displayCommits(commits) {
-    console.log(commits);
-}
+// function displayCommits(commits) {
+//     console.log(commits);
+// }
 
 function getCommits(repos) {
     getCommits(repos, displayCommits);
@@ -69,7 +69,7 @@ function getRepositories(user) {
 
 function getUser(id, resolve) {
     return new Promise((resolve, reject) => {
-        // Example of non-blocking function
+    // Example of non-blocking function
     // Aynchronous : does not mean concurrent or multi-threaded
     // Scheduling a task to be performed in the future
     setTimeout(() => {
